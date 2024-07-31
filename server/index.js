@@ -21,6 +21,6 @@ app
     console.error("Error:", err.message);
   });
 
-  app.get("/",(req,res) => {
-    res.status(200).send("Welcome to wild series !! ")
-  })
+  // app.get("/",(req,res) => {
+  //   res.status(200).send("Welcome to wild series !! ")
+  // })
