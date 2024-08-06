@@ -64,6 +64,7 @@ class AbstractSeeder {
 
   // eslint-disable-next-line class-methods-use-this
   getRef(name) {
+    
     return refs[name];
   }
 }
